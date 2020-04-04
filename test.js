@@ -3,7 +3,7 @@ var ServerMock = require("mock-http-server");
 describe('Test', function() {
  
     // Run an HTTP server on localhost:9000
-    var server = new ServerMock({ host: "localhost", port: 9000 });
+    var server = new ServerMock({ host: "localhost", port: 8080 });
  
     beforeEach(function(done) {
         server.start(done);
@@ -14,6 +14,7 @@ describe('Test', function() {
     });
  
     it('should do something', function(done) {
+     /*
         server.on({
             method: 'GET',
             path: '/resource',
@@ -23,7 +24,7 @@ describe('Test', function() {
                 body:    JSON.stringify({ hello: "world" })
             }
         });
- 
+      */
         // Now the server mock will handle a GET http://localhost:9000/resource
         // and will reply with 200 `{"hello": "world"}`
         done();
