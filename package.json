@@ -6,10 +6,13 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "node test.js"
+    "test": "mocha test.js"
   },
   "dependencies": {
-    "express": "^4.16.1",
-    "mock-http-server": "^1.4.2"
+    "express": "^4.16.1"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.0"
   }
+
 }
