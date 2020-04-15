@@ -5,8 +5,18 @@ const assert = require('assert');
 
 describe('testme', function () {
 
-    it('should equal to 15', function(){
+    it('Test1', function(){
          assert.equal(7+8, 15);
     });
 
+    it('Test2', function(){
+         assert.equal(7+7, 15);
+    });
+    
+
+    it('Test 3', function(){
+         assert.equal(7+8, 15);
+    });
+
+    
 });
