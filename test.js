@@ -15,7 +15,7 @@ describe('testme', function () {
     
 
     it('Test 3', function(){
-         assert.equal(7+8, 15);
+         assert.equal(1, 1);
     });
 
     
