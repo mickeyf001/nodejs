@@ -15,11 +15,11 @@ describe('testme', function () {
     
 
     it('Test 3', function(){
-         assert.equal(1, 1);
+         assert.equal(3, 1);
     });
 
     it('Test 4', function(){
-         assert.equal(2, 2);
+         assert.equal(5, 2);
     });
     
     
