@@ -10,7 +10,7 @@ describe('testme', function () {
     });
 
     it('Test2', function(){
-         assert.equal(7+7, 15);
+         assert.equal(7+8, 15);
     });
     
 
@@ -18,5 +18,10 @@ describe('testme', function () {
          assert.equal(1, 1);
     });
 
+    it('Test 4', function(){
+         assert.equal(2, 2);
+    });
+    
+    
     
 });
