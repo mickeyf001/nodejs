@@ -10,7 +10,7 @@ describe('testme', function () {
     });
 
     it('Test2', function(){
-         assert.equal(7+8, 15);
+         assert.equal(7+7, 15);
     });
     
 
