@@ -19,7 +19,7 @@ describe('testme', function () {
     });
 
     it('Test 4', function(){
-         assert.equal(2, 2);
+         assert.equal(4, 2);
     });
     
     
