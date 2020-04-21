@@ -6,7 +6,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "mocha test.js --reporter mocha-junit-reporter"
+    "test": "mocha test.js --reporter mocha-junit-reporter --reporter-options outputs=true"
   },
   "dependencies": {
     "express": "^4.16.1"
