@@ -22,8 +22,5 @@ describe('testme', function () {
          assert.equal(3, 2);
     });
     
-    it('Test 5', function(){
-         assert.equal(3, 2);
-    });
    
 });
