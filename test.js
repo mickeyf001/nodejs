@@ -18,9 +18,6 @@ describe('testme', function () {
          assert.equal(1, 1);
     });
 
-    it('Test 4', function(){
-         assert.equal(3, 2);
-    });
     
    
 });
