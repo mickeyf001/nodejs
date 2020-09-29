@@ -19,5 +19,9 @@ describe('testme', function () {
     });
 
     
-   
+       it('Test 4', function(){
+         assert.equal(4, 4);
+    });
+    
+    
 });
